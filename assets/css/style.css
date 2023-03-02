@@ -31,10 +31,10 @@ body {
   );
   background-size: 1800% 1800%;
 
-  -webkit-animation: rainbow 28s ease infinite;
-  -z-animation: rainbow 28s ease infinite;
-  -o-animation: rainbow 28s ease infinite;
-  animation: rainbow 28s ease infinite;
+  -webkit-animation: rainbow 88s ease infinite;
+  -z-animation: rainbow 88s ease infinite;
+  -o-animation: rainbow 88s ease infinite;
+  animation: rainbow 88s ease infinite;
 }
 
 @-webkit-keyframes rainbow {
@@ -124,12 +124,12 @@ button {
   --radius: 16px;
 
   transition: border-top-left-radius var(--dur) var(--delay) ease-out,
-    border-top-right-radius var(--dur) calc(var(--delay) * 2) ease-out,
-    border-bottom-right-radius var(--dur) calc(var(--delay) * 3) ease-out,
-    border-bottom-left-radius var(--dur) calc(var(--delay) * 4) ease-out,
-    box-shadow calc(var(--dur) * 4) ease-out,
-    transform calc(var(--dur) * 4) ease-out,
-    background calc(var(--dur) * 4) steps(4, jump-end);
+    border-top-right-radius var(--dur) calc(var(--delay) * 1.5) ease-out,
+    border-bottom-right-radius var(--dur) calc(var(--delay) * 2) ease-out,
+    border-bottom-left-radius var(--dur) calc(var(--delay) * 2.5) ease-out,
+    box-shadow calc(var(--dur) * 2.5) ease-out,
+    transform calc(var(--dur) * 2.5) ease-out,
+    background calc(var(--dur) * 2.5) steps(4, jump-end);
 }
 
 .button-arounder:hover {
