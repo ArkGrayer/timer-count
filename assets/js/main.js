@@ -22,6 +22,7 @@ function initTimer() {
 }
 
 start.addEventListener("click", function () {
+  clearInterval(timer);
   initTimer();
   timerHtml.classList.remove("stopTimer");
 });
